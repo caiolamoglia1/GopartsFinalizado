@@ -1,0 +1,24 @@
+﻿nome_produto,codigo,preco,estoque
+Amortecedor,K12345LA,100.0,10
+Pivô de Suspensão,K54321BR,100.0,0
+Bomba d'Água,K67890US,100.5,0
+Embreagem,K11223EU,250.0,0
+Lâmpada,K99887BR,75.0,0
+Filtro de Óleo,K55667LA,10.0,0
+Para-choque,K77889US,1.25,20
+Lanterna Traseira,K33445EU,1250.0,0
+Velocímetro,K11111BR,89.0,9
+Freio Dianteiro,K22222LA,1050.7,15
+Kit Correia,K33333US,1.05,70
+Coxim do Motor,K44444EU,55.0,0
+Junta Homocinética,K55555BR,99.0,0
+Radiador,K66666LA,99.0,90
+Disco de Freio,K77777US,199.5,0
+Pastilha de Freio,K88888EU,200.0,0
+Sensor de Rotação,K99999BR,300.0,0
+Bobina de Ignição,K12121LA,25.0,0
+Válvula Termostática,K23232US,10.0,5
+Reservatório de Água,K34343EU,75.0,0
+Bieleta,K45454LA,100.5,2
+Junta Tampa Válvulas,K19191BR,80.5,0
+Vela de Ignição,K78787US,25.0,0

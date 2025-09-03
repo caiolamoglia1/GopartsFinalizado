@@ -1,0 +1,21 @@
+nome_produto,codigo,preco,estoque
+Amortecedor Traseiro,K12345LA,100,50,10
+ Pivô de Suspensão  ,K54321BR,R$100,50,-1
+Bomba d'água - edicao especial,K67890US,100.50,
+Embreagem,K11223EU,R$ 250,30,None
+Lâmpada de Farol,K99887BR,75,5,0
+Filtro de óleo,K55667LA,10,5,n/a
+Para-choque,K77889US,1.250,99,20
+Lanterna Traseira,K33445EU,R$1.250,00,
+Velocímetro,K11111BR,89,9, ,
+Freio Dianteiro,K22222LA,1050.7,15
+Kit Correia Dentada,K33333US,R$ 1.050,70, 
+Coxim do Motor,K44444EU,55,3,0
+Junta Homocinética,K55555BR,99,9,-1
+Radiador,K66666LA,R$99,90, 
+Disco de Freio,K77777US,199.5,
+Pastilha de Freio,K88888EU,R$ 200,00,None
+Sensor de Oxigênio,K99999BR,300,20,0
+Bobina de Ignição,K12121LA,25,0,n/a
+Válvula Termostática,K23232US,10,5, 
+Reservatório de Expansão,K34343EU,R$ 75,5,-1
