@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import chardet  # Importação direta do chardet para detecção automática (não manual)
+import io
 
 print("✅ Chardet disponível - usando detecção automática de encoding")
 
@@ -57,7 +58,7 @@ for encoding in encodings_para_testar:
                     linhas.append(linha.strip())
         
         # Agora cria o DataFrame a partir das linhas corrigidas
-        import io
+        
         csv_corrigido = '\n'.join(linhas)
         df = pd.read_csv(io.StringIO(csv_corrigido))
         

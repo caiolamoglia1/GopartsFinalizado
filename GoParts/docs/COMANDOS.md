@@ -243,8 +243,6 @@ encoding='utf-8-sig'
 ```
 **Significado**: Usa codificação UTF-8 com BOM para suportar acentos em programas como Excel.
 
----
 
----
 
 
