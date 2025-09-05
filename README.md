@@ -39,10 +39,18 @@ python3 demo_apresentacao.py
 # ou
 py demo_apresentacao.py
 ```
-
-**🏁 Resultado esperado:** Sistema roda em 30 segundos!
-
----
+**💡 Se `python` não funcionar:**
+```bash
+# Tente uma dessas alternativas:
+python3 demo_apresentacao.py
+# ou
+py demo_apresentacao.py
+```
+**💡 Ou:**
+```bash
+# cd "c:\GoParts\GopartsFinalizado\GoParts"
+python demo_apresentacao.py
+```
 
 ### 📊 **Resultado Visual:**
 ```
@@ -349,7 +357,6 @@ timeout = 10s
 
 ### 🚀 **Entrega:**
 - [x] Sistema funcionando 100% out-of-the-box
-- [x] Documentação clara e objetiva
 - [x] Demo de apresentação de 30 segundos
 - [x] Facilidade extrema de execução
 - [x] Logs detalhados para debugging
@@ -357,10 +364,6 @@ timeout = 10s
 ---
 
 **🏆 Desenvolvido por:** Caio Lamoglia  
-**📧 Contato:** [Seu email aqui]  
-**🎯 Objetivo:** Demonstrar expertise em Python, processamento de dados e integração de APIs  
-**⏱️ Tempo de avaliação:** 2-3 minutos  
+**📧 Contato:** [lamoglia82@gmail.com]  
 
----
 
-**🚗⚙️ Sistema pronto para produção em ambiente automotivo real!**
