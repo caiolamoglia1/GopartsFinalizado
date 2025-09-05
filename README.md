@@ -11,15 +11,38 @@
 > 🛡️ **SISTEMA RESILIENTE**: Funciona perfeitamente mesmo com httpbin.org offline!  
 > O tratamento de erros de conectividade é uma **funcionalidade demonstrada**, não um bug.
 
+> ⚠️ **IMPORTANTE**: Execute `pip install pandas chardet requests flask` antes do primeiro uso!
+
 ---
 
+## 🚀 **INSTALAÇÃO E EXECUÇÃO RÁPIDA**
 
+### ⚡ **3 Comandos para Rodar (Copy-Paste)**
 
-### ⚡ **Execução Imediata (30 segundos)**
+**Qualquer Sistema Operacional:**
 ```bash
+# 1. Clone o repositório
+git clone https://github.com/caiolamoglia1/GopartsFinalizado.git
 cd GopartsFinalizado/GoParts
+
+# 2. Instale as dependências
+pip install pandas chardet requests flask
+
+# 3. Execute a demonstração
 python demo_apresentacao.py
 ```
+
+**💡 Se `python` não funcionar:**
+```bash
+# Tente uma dessas alternativas:
+python3 demo_apresentacao.py
+# ou
+py demo_apresentacao.py
+```
+
+**🏁 Resultado esperado:** Sistema roda em 30 segundos!
+
+---
 
 ### 📊 **Resultado Visual:**
 ```
@@ -143,14 +166,19 @@ Isso é uma FUNCIONALIDADE, não um bug!
 
 ### 🔧 **Outros Problemas Comuns:**
 ```bash
-# Módulo não encontrado
+# ❌ Módulo não encontrado
 pip install pandas chardet requests flask
 
-# Arquivo CSV não encontrado
+# ❌ Arquivo CSV não encontrado  
 python src/data_cleaner.py  # Gera o CSV primeiro
 
-# Python não encontrado
+# ❌ Python não encontrado
 python --version  # Deve ser 3.8+
+# Se não funcionar, tente: python3 --version ou py --version
+
+# ❌ Pip não encontrado
+# Windows: py -m pip install pandas chardet requests flask
+# Linux/Mac: python3 -m pip install pandas chardet requests flask
 ```
 
 ---
@@ -168,6 +196,34 @@ pip install pandas chardet requests flask
 
 # 3. Executar demonstração
 python demo_apresentacao.py
+```
+
+## 🎯 **INSTALAÇÃO DETALHADA (Se necessário)**
+
+### 🖥️ **Por Sistema Operacional:**
+
+**Windows:**
+```cmd
+git clone https://github.com/caiolamoglia1/GopartsFinalizado.git
+cd GopartsFinalizado\GoParts
+pip install pandas chardet requests flask
+python demo_apresentacao.py
+```
+
+**Linux/Ubuntu:**
+```bash
+git clone https://github.com/caiolamoglia1/GopartsFinalizado.git
+cd GopartsFinalizado/GoParts
+pip3 install pandas chardet requests flask
+python3 demo_apresentacao.py
+```
+
+**macOS:**
+```bash
+git clone https://github.com/caiolamoglia1/GopartsFinalizado.git
+cd GopartsFinalizado/GoParts
+pip3 install pandas chardet requests flask
+python3 demo_apresentacao.py
 ```
 
 ### 🧪 **Outros Testes Disponíveis:**
