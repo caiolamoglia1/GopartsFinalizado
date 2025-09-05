@@ -1,0 +1,19 @@
+# Case Técnico GoParts - Dependências Python
+# Arquivo de requisitos para instalação automática
+# Use: pip install -r requirements.txt
+
+# Processamento de dados
+pandas==2.3.2
+
+# Detecção de encoding
+chardet==5.2.0
+
+# Cliente HTTP para APIs
+requests==2.32.5
+
+# API de teste local
+flask==3.1.2
+
+# Dependências adicionais (se necessário)
+# urllib3>=1.26.0
+# certifi>=2021.5.25

@@ -37,11 +37,11 @@ Esta seção mostra a **evolução** do projeto, desde a versão inicial até a 
 
 | Aspecto | APRENDIZADO/Teste.py | src/data_cleaner.py (Final) |
 |---------|---------------------|------------------------------|
-| **Dados** | String interna | Arquivo CSV real |
-| **Encoding** | Não considera | Detecção automática com chardet |
-| **Vírgulas extras** | Não trata | Corrige inconsistências |
+| **Dados** | String interna | Arquivo CSV real                |
+| **Encoding** | Não considera | Detecção automática com chardet|
+| **Vírgulas extras** | Não trata | Corrige inconsistências    |
 | **Robustez** | Básica | Avançada com tratamento de erros |
-| **Logging** | Print simples | Sistema de logging profissional |
+| **Logging** | Print simples | Sistema de logging profissional|
 | **Uso** | 📚 Aprendizado | 🚀 Produção |
 
 ---

@@ -1,13 +1,87 @@
-# 🚗 GoParts - Sistema de Limpeza de Dados
+# � Case Técnico GoParts
 
+> **Sistema de Processamento de Dados e Integração com APIs**  
+> Desenvolvido para processo seletivo de estágio
 
-## 📁 Estrutura do Projeto
+[![Python](https://img.shields.io/badge/Python-3.13.7-blue.svg)](https://python.org)
+[![Pandas](https://img.shields.io/badge/Pandas-2.3.2-green.svg)](https://pandas.pydata.org)
+[![Status](https://img.shields.io/badge/Status-✅%20Funcionando-brightgreen.svg)]()
+
+---
+
+## 🎯 **Execução Rápida**
+
+```bash
+# 1. Navegue para o diretório
+cd "c:\GoParts\GopartsFinalizado\GoParts"
+
+# 2. Execute o demo
+python demo_apresentacao.py
+```
+
+**⏱️ Duração:** 2-3 minutos  
+**✅ Resultado:** Sistema completo testado
+
+---
+
+## � **O que o Sistema Faz**
+
+### 🔄 **Parte 1: Processamento de Dados**
+- ✅ Detecta automaticamente encoding de arquivos CSV
+- ✅ Limpa e normaliza dados de produtos
+- ✅ Converte preços brasileiros (R$ 1.234,56 → 1234.56)
+- ✅ Gera relatórios de processamento
+
+### 🌐 **Parte 2: Integração com APIs**
+- ✅ Sistema de retry resiliente com backoff exponencial
+- ✅ Tratamento inteligente de falhas HTTP (5xx)
+- ✅ Logging profissional com timestamps
+- ✅ Taxa de sucesso: **100%** (mesmo com falhas simuladas)
+
+---
+
+## 🧪 **Demonstração**
+
+### **Resultado Esperado:**
+```
+🎯 DEMONSTRAÇÃO - PROJETO GOPARTS
+==================================================
+✅ 20 produtos processados com sucesso
+✅ 20/20 enviados para API (100% taxa de sucesso)
+📊 Sistema resiliente testado e aprovado
+```
+
+### **Arquivos Gerados:**
+- � `data/output/produtos_limpos_utf8.csv` - Dados limpos
+- 📁 `logs/` - Logs detalhados de execução
+
+---
+
+## ⚡ **Instalação (Se Necessário)**
+
+```bash
+# Dependências
+pip install pandas chardet requests flask
+
+# Verificar instalação
+python --version  # Deve ser 3.8+
+```
+
+---
+
+## 🔧 **Estrutura do Projeto**
 
 ```
 GoParts/
-├── 📂 src/                          # Código fonte
-│   └── data_cleaner.py             # Script principal de limpeza
-├── 📂 data/                        # Arquivos de dados
+├── 📁 src/
+│   ├── data_cleaner.py        # Limpeza de dados
+│   ├── api_integration.py     # Cliente API local  
+│   └── httpbin_integration.py # Cliente API externa
+├── � data/
+│   ├── raw/produtos.csv       # Dados originais
+│   └── output/                # Dados processados
+├── 📁 logs/                   # Logs de execução
+└── demo_apresentacao.py       # 🎬 Demo principal
 │   ├── input/                      # Dados de entrada
 │   │   └── produtos_bagunçados_latin1.csv
 │   └── output/                     # Dados processados
