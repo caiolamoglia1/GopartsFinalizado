@@ -15,8 +15,8 @@ Esta é a forma mais simples de testar, pois usa httpbin.org:
 
 ### No PowerShell:
 ```powershell
-cd "c:\GoParts\GopartsFinalizado\GoParts"
-C:/GoParts/.venv/Scripts/python.exe src/httpbin_integration.py
+cd "c:\Goparts1\GopartsFinalizado\GoParts"
+C:/Goparts1/.venv/Scripts/python.exe src/httpbin_integration.py
 ```
 
 ### Ou use o menu:
@@ -39,15 +39,15 @@ test_menu.bat
 ### Passo 1: Iniciar API de Teste
 ```powershell
 # Terminal 1
-cd "c:\GoParts\GopartsFinalizado\GoParts"
-C:/GoParts/.venv/Scripts/python.exe src/test_api.py
+cd "c:\Goparts1\GopartsFinalizado\GoParts"
+C:/Goparts1/.venv/Scripts/python.exe src/test_api.py
 ```
 
 ### Passo 2: Executar Cliente
 ```powershell
 # Terminal 2 (novo terminal)
-cd "c:\GoParts\GopartsFinalizado\GoParts"
-C:/GoParts/.venv/Scripts/python.exe src/api_integration.py
+cd "c:\Goparts1\GopartsFinalizado\GoParts"
+C:/Goparts1/.venv/Scripts/python.exe src/api_integration.py
 ```
 
 ### 🌐 **Endpoints da API de Teste:**
@@ -63,8 +63,8 @@ C:/GoParts/.venv/Scripts/python.exe src/api_integration.py
 Para verificar se tudo está configurado:
 
 ```powershell
-cd "c:\GoParts\GopartsFinalizado\GoParts"
-C:/GoParts/.venv/Scripts/python.exe test_integration.py
+cd "c:\Goparts1\GopartsFinalizado\GoParts"
+C:/Goparts1/.venv/Scripts/python.exe test_integration.py
 ```
 
 ### ✅ **Verificações realizadas:**
@@ -81,7 +81,7 @@ C:/GoParts/.venv/Scripts/python.exe test_integration.py
 Execute o menu de testes:
 
 ```cmd
-cd "c:\GoParts\GopartsFinalizado\GoParts"
+cd "c:\Goparts1\GopartsFinalizado\GoParts"
 test_menu.bat
 ```
 
@@ -158,13 +158,13 @@ Get-Content logs\httpbin_integration_*.log
 ### ❌ **"Module not found"**
 ```powershell
 # Reinstalar dependências
-C:/GoParts/.venv/Scripts/python.exe -m pip install requests pandas flask
+C:/Goparts1/.venv/Scripts/python.exe -m pip install requests pandas flask
 ```
 
 ### ❌ **"CSV não encontrado"**
 ```powershell
 # Executar limpeza primeiro
-C:/GoParts/.venv/Scripts/python.exe run.py
+C:/Goparts1/.venv/Scripts/python.exe run.py
 ```
 
 ### ❌ **"API não está rodando"**
@@ -217,8 +217,8 @@ Um teste bem-sucedido deve mostrar:
 1. Abra PowerShell como administrador
 2. Execute:
    ```powershell
-   cd "c:\GoParts\GopartsFinalizado\GoParts"
-   C:/GoParts/.venv/Scripts/python.exe src/httpbin_integration.py
+   cd "c:\Goparts1\GopartsFinalizado\GoParts"
+   C:/Goparts1/.venv/Scripts/python.exe src/httpbin_integration.py
    ```
 3. Aguarde o relatório final
 4. Verifique os logs em `logs/`

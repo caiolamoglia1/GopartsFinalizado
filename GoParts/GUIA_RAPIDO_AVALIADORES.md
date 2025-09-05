@@ -9,8 +9,8 @@
 
 ### **Opção 1: Script Automático** ⭐
 ```cmd
-cd "c:\GoParts\GopartsFinalizado\GoParts"
-python demo_apresentacao.py
+cd "c:\Goparts1\GopartsFinalizado\GoParts"
+c:\Goparts1\.venv\Scripts\python.exe demo_apresentacao.py
 ```
 
 ### **Opção 2: Menu Interativo**
@@ -83,7 +83,7 @@ python --version
 
 ### **Problema: Dependências faltando**
 ```cmd
-pip install pandas chardet requests flask
+c:\Goparts1\.venv\Scripts\pip.exe install pandas chardet requests flask
 ```
 
 ### **Problema: Arquivo não encontrado**

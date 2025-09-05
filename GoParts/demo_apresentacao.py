@@ -20,7 +20,7 @@ def apresentacao_demo():
     print("   - Validação de dados")
     input("   ⏯️  Pressione ENTER para executar...")
     
-    os.system('C:/GoParts/.venv/Scripts/python.exe src/data_cleaner.py')
+    os.system('C:/Goparts1/.venv/Scripts/python.exe src/data_cleaner.py')
     
     print("\n✅ PARTE 1 CONCLUÍDA!")
     time.sleep(2)
@@ -33,7 +33,7 @@ def apresentacao_demo():
     print("   - Logging profissional")
     input("   ⏯️  Pressione ENTER para executar...")
     
-    os.system('C:/GoParts/.venv/Scripts/python.exe src/httpbin_integration.py')
+    os.system('C:/Goparts1/.venv/Scripts/python.exe src/httpbin_integration.py')
     
     print("\n🎉 DEMONSTRAÇÃO CONCLUÍDA!")
     print("📊 Sistema 100% funcional e testado!")
